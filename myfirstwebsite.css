@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        section {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #0044cc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0044cc;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ABC Public School</h1>
+        <p>School Information Page</p>
+    </header>
+
+    <section>
+        <h2>General Information</h2>
+        <p><strong>Address:</strong> 123, Main Road, City, State</p>
+        <p><strong>Phone:</strong> +91-9876543210</p>
+        <p><strong>Email:</strong> info@abcschool.com</p>
+        <p><strong>Established:</strong> 1995</p>
+    </section>
+
+    <section>
+        <h2>Faculty Members</h2>
+        <table>
+            <tr>
+                <th>Teacher Name</th>
+                <th>Subject</th>
+                <th>Experience</th>
+            </tr>
+            <tr>
+                <td>Mr. Rakesh Sharma</td>
+                <td>Mathematics</td>
+                <td>10 Years</td>
+            </tr>
+            <tr>
+                <td>Mrs. Neha Kapoor</td>
+                <td>Science</td>
+                <td>8 Years</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Facilities</h2>
+        <ul>
+            <li>Library</li>
+            <li>Computer Lab</li>
+            <li>Sports Ground</li>
+            <li>Science Laboratories</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2025 ABC Public School. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
